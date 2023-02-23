@@ -87,7 +87,7 @@ a:hover {
 
 .activities ul li {
   font-size: 1.5em;
-  line-height: 100%;
+  line-height: 120%;
   margin-right: 1em;
 }
 
@@ -103,6 +103,17 @@ a:hover {
 
 .info div {
   margin-right: 0.6em;
+}
+
+.info ul {
+  display: inline;
+  list-style: none;
+  margin-top: 0.42em;
+  margin-bottom: 0.42em;
+}
+
+.info ul li {
+  line-height: 120%;
 }
 
 .social {
