@@ -1,67 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Levonyak Consulting</title>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="author" content="Markus Levonyak">
-    <meta name="copyright" content="Levonyak Consulting LLC">
-    <link rel="icon" href="images/icon.png">
-    <link rel="stylesheet" href="styles/evil-icons.min.css">
-    <link rel="stylesheet" href="styles/screen.css">
-    <script src="scripts/evil-icons.min.js"></script>
-    <script type="text/javascript">
-      // Email obfuscator script 2.1 by Tim Williams, University of Arizona
-      // Random encryption key feature by Andrew Moulden, Site Engineering Ltd
-      // This code is freeware provided these four comment lines remain intact
-      // A wizard to generate this code is at http://www.jottings.com/obfuscator/
-      function writeEmail(coded, key, text) {
-        shift = coded.length
-        link = ""
-        for (i = 0; i < coded.length; i++) {
-          if (key.indexOf(coded.charAt(i)) == -1) {
-            ltr = coded.charAt(i)
-            link += (ltr)
-          }
-          else {
-            ltr = (key.indexOf(coded.charAt(i)) - shift + key.length) % key.length
-            link += (key.charAt(ltr))
-          }
-        }
-        document.write("<a href='mailto:" + link + "'>" + ((text) ? text : link) + "</a>");
-      }
-    </script>
+    <meta charset="utf-8">
+    <title>Redirecting to markuslevonyak.com</title>
+    <meta http-equiv="refresh" content="0; URL=https://markuslevonyak.com/">
+    <link rel="canonical" href="https://markuslevonyak.com/">
   </head>
-  <body>
-    <div id="left" class="column">
-      <div class="wrapper">
-        <img src="images/logo.png" alt="Logo" width="400" height="400">
-      </div>
-    </div>
-    <div id="right" class="column">
-      <div class="wrapper">
-        <h1>Levonyak Consulting</h1>
-        <div class="activities">
-          <ul>
-            <li>Decentralized Software</li>
-            <li>Consulting and Development</li>
-          </ul>
-        </div>
-        <div class="info">
-          <div data-icon="ei-location" data-size="m"></div>
-          <ul>
-            <li>Levonyak Consulting LLC</li>
-            <li>3833 Powerline Road</li>
-            <li>Suite 101</li>
-            <li>Fort Lauderdale, FL 33309</li>
-            <li>United States</li>
-          <ul>
-        </div>
-        <div class="info">
-          <div data-icon="ei-envelope" data-size="m"></div>
-          <script type="text/javascript">writeEmail("DBssY@sBAY0c3O.tYK", "dYsZktEmV35HN4WiBhPqCxORgKu21pSynJTD9zQFwv6j7olGMc0fXab8LIUAer")</script>
-        </div>
-      </div>
-    </div>
-  </body>
 </html>
